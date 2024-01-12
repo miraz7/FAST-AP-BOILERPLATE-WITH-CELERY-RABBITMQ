@@ -24,3 +24,23 @@ This repository provides a robust FastAPI boilerplate that incorporates essentia
 
    ```bash
    git clone https://github.com/your-username/your-repository.git](https://github.com/miraz7/FAST-AP-BOILERPLATE-WITH-CELERY-RABBITMQ)https://github.com/miraz7/FAST-AP-BOILERPLATE-WITH-CELERY-RABBITMQ
+
+2. **Update The .env**:
+   ```bash
+   RABBITMQ_USER= user-name
+   RABBITMQ_PASSWORD= password
+   RABBITMQ_DEFAULT_USER =  user-name
+   RABBITMQ_DEFAULT_PASS =password
+   RABBITMQ_PORT=5672
+   RABBITMQ_VHOST = /
+   RABBITMQ_HOST= rabbitmq-host
+   
+   DB_HOST=
+   DB_NAME=
+   DB_USER= 
+   DB_PASS= 
+   DB_PORT=
+
+3 .  **Run this command**:
+   ```bash
+   docker compose up --build 
