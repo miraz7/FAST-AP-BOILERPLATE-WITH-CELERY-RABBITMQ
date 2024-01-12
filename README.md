@@ -42,5 +42,5 @@ This repository provides a robust FastAPI boilerplate that incorporates essentia
    DB_PORT=
 
 3 .  **Run this command**:
-   ```bash
+   ```
    docker compose up --build 
